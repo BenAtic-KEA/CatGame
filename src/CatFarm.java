@@ -39,6 +39,7 @@ public class CatFarm {
         CatFarm.Cats[saveSlot].setName(Menu.fetchUserString());
     }
 
+    // Sikrer at inputtet er en et heltal som er mellem 0 og 10. Giver error ved andet input.
     public static int takeInput(){
         int var;
         String error = "Not an integer or out of bounds. Try Again!";
