@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class CatFarm {
     private static Random startValue = new Random();
     public static Cat[] Cats = new Cat[11];
-    private static int count;
+    private static int count; // feature så kan implementeres.
 
     public static Cat catCreation(){
         System.out.println("Please input a number between 0-10 (inclusive).");

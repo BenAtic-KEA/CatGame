@@ -56,7 +56,6 @@ public class Menu {
                     Game.playTheGame(fetchUserInt());
                     break;
 
-
                 case 2:
                     System.out.println("Make your own start values: ");
                     saveSlot = CatFarm.takeInput();
@@ -95,11 +94,13 @@ public class Menu {
                                 "press 3 in main menu to see saved cats");
                     }
                     break;
+
                 case 6:
                     System.out.println("You chose to exit the program - goodbye");
                     didUserWantToExit = true;
                     break;
             }
+
             if(!didUserWantToExit)
                 presentMainChoices();
         }

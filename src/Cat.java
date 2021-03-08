@@ -106,7 +106,6 @@ public class Cat {
     private void setExp(int exp) {
         this.exp = exp;
     }
-
     public void setLvl(int lvl) {
         this.lvl = lvl;
     }
