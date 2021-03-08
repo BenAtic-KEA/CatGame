@@ -1,4 +1,6 @@
 public class Cat {
+
+    // Cat attributes
     private String name;
     private int mood;
     private int hungry;
@@ -6,6 +8,7 @@ public class Cat {
     private int exp;
     private int lvl;
 
+    // Constructor
     public Cat(int mood, int hungry, int energy){
         this.mood = mood;
         this.hungry = hungry;
@@ -32,10 +35,12 @@ public class Cat {
     public void setName(String name){
         this.name = name;
     }
+
     //public int setMood(){}
     //public int setHungry(){}
     //public int setEnergy(){}
 
+    // Boolean flag that checks to make sure that the cat won't exceed 10 in stats.
     private boolean checkLogicUp(String state, int var){
         if (var+1 > 10) {
             System.out.println("Cat is at maximum " + state);
@@ -44,6 +49,7 @@ public class Cat {
         else return true;
     }
 
+    // Boolean flag that checks to make sure that the cat won't go below 0 in stats.
     private boolean checkLogicDown(String state, int var){
         if (var-1 < 0) {
             System.out.println("Cat is at minimum " + state);
@@ -52,11 +58,12 @@ public class Cat {
         else return true;
     }
 
-
+    // Prints the cats name and stats.
     public String stateOfCat(){
         return "Name: " + name + "\nlvl: " + lvl + "\nMood: " + mood + ". Hunger: " + hungry + ". Energy: " + energy + ".";
     }
 
+    // Meow
     private void meow(){
         System.out.println("Meow!");
     }
@@ -71,7 +78,7 @@ public class Cat {
     }
     }
 
-//Play
+    //Play
     public void play(){
 
         if(energy > 0) {
@@ -91,7 +98,7 @@ public class Cat {
         increaseExp();
     }
 
-//Feed
+    // Feed
     public void feed() {
         if (checkLogicDown("hunger", this.hungry)) {
             this.hungry--;
@@ -102,7 +109,7 @@ public class Cat {
         meow();
     }
 
-
+    // Setter for exp and lvls
     private void setExp(int exp) {
         this.exp = exp;
     }

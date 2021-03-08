@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Menu {
     private static final Scanner choice = new Scanner(System.in);
 
-    //mainChoices
+    // mainChoices
     // print welcome and option 1.. until last option which is exit
     private void presentMainChoices() {
         System.out.println();
@@ -14,11 +14,15 @@ public class Menu {
         System.out.println("Press 5 to rename a cat");
         System.out.println("Press 6 to exit the program");
     }
+
+    // Indhent heltal fra slutbruger.
     public static int fetchUserInt() {
         int userInput = choice.nextInt();
         choice.nextLine();
         return userInput;
     }
+
+    // Metode til at indhente Ja/Nej fra bruger uden crash.
     public static String fetchUserString(){
         return choice.nextLine();
     }
@@ -34,6 +38,7 @@ public class Menu {
         }
     }
 
+    // Endte med at skrive logik ind i Menuen, hvor den ideelle løsning ville være at lave separate metoder ovre i game-klassen til at håndtere det.
     public void initiateMainMenu() {
         boolean didUserWantToExit = false;
         int saveSlot;
