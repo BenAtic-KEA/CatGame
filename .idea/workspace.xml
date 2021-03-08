@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e84ea9d7-5ce4-4102-987a-9bf00206d65b" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CatFarm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CatFarm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
     </list>
     <list id="3886585a-dc4a-4a5b-a0d5-bf44ade91f8f" name="Changes by Roswall" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CatFarm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CatFarm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,30 +31,13 @@
     </file-type-list>
   </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/Cat.java">
+    <file path="$PROJECT_DIR$/src/CatFarm.java">
       <ranges>
-        <range start1="1" end1="1" start2="1" end2="3" changelist="3886585a-dc4a-4a5b-a0d5-bf44ade91f8f" />
-        <range start1="8" end1="8" start2="10" end2="11" changelist="3886585a-dc4a-4a5b-a0d5-bf44ade91f8f" />
-        <range start1="34" end1="34" start2="37" end2="38" changelist="3886585a-dc4a-4a5b-a0d5-bf44ade91f8f" />
-        <range start1="38" end1="38" start2="42" end2="43" changelist="3886585a-dc4a-4a5b-a0d5-bf44ade91f8f" />
-        <range start1="46" end1="46" start2="51" end2="52" changelist="3886585a-dc4a-4a5b-a0d5-bf44ade91f8f" />
-        <range start1="54" end1="55" start2="60" end2="61" changelist="3886585a-dc4a-4a5b-a0d5-bf44ade91f8f" />
-        <range start1="59" end1="59" start2="65" end2="66" changelist="3886585a-dc4a-4a5b-a0d5-bf44ade91f8f" />
-        <range start1="73" end1="74" start2="80" end2="81" changelist="3886585a-dc4a-4a5b-a0d5-bf44ade91f8f" />
-        <range start1="93" end1="94" start2="100" end2="101" changelist="3886585a-dc4a-4a5b-a0d5-bf44ade91f8f" />
-        <range start1="104" end1="105" start2="111" end2="112" changelist="3886585a-dc4a-4a5b-a0d5-bf44ade91f8f" />
-        <range start1="108" end1="109" start2="115" end2="115" changelist="e84ea9d7-5ce4-4102-987a-9bf00206d65b" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/Menu.java">
-      <ranges>
-        <range start1="5" end1="6" start2="5" end2="6" changelist="3886585a-dc4a-4a5b-a0d5-bf44ade91f8f" />
-        <range start1="16" end1="16" start2="16" end2="18" changelist="3886585a-dc4a-4a5b-a0d5-bf44ade91f8f" />
-        <range start1="21" end1="21" start2="23" end2="25" changelist="3886585a-dc4a-4a5b-a0d5-bf44ade91f8f" />
-        <range start1="36" end1="36" start2="40" end2="41" changelist="3886585a-dc4a-4a5b-a0d5-bf44ade91f8f" />
-        <range start1="58" end1="59" start2="63" end2="63" changelist="e84ea9d7-5ce4-4102-987a-9bf00206d65b" />
-        <range start1="97" end1="97" start2="101" end2="102" changelist="e84ea9d7-5ce4-4102-987a-9bf00206d65b" />
-        <range start1="102" end1="102" start2="107" end2="108" changelist="e84ea9d7-5ce4-4102-987a-9bf00206d65b" />
+        <range start1="6" end1="7" start2="6" end2="7" changelist="e84ea9d7-5ce4-4102-987a-9bf00206d65b" />
+        <range start1="8" end1="8" start2="8" end2="9" changelist="e84ea9d7-5ce4-4102-987a-9bf00206d65b" />
+        <range start1="24" end1="25" start2="25" end2="26" changelist="e84ea9d7-5ce4-4102-987a-9bf00206d65b" />
+        <range start1="34" end1="35" start2="35" end2="36" changelist="e84ea9d7-5ce4-4102-987a-9bf00206d65b" />
+        <range start1="40" end1="40" start2="41" end2="42" changelist="3886585a-dc4a-4a5b-a0d5-bf44ade91f8f" />
       </ranges>
     </file>
   </component>
@@ -122,7 +98,7 @@
       <workItem from="1614976384463" duration="1782000" />
       <workItem from="1614978193936" duration="7354000" />
       <workItem from="1615235245492" duration="67000" />
-      <workItem from="1615235323694" duration="1664000" />
+      <workItem from="1615235323694" duration="2058000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1614984982139</created>
@@ -131,7 +107,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614984982139</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test">
+      <created>1615237115587</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615237115587</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test">
+      <created>1615237173673</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615237173673</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
